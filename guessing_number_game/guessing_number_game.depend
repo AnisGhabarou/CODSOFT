@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1706393338 source:c:\users\lenovo\desktop\codsoft\guessing_number_game\main.cpp
+	<cstdlib>
+	<iostream>
+	<ctime>
+

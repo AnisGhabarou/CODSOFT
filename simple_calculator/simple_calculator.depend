@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1706561511 source:c:\users\lenovo\desktop\codsoft\simple_calculator\main.cpp
+	<iostream>
+	<iomanip>
+	<sstream>
+	<string>
+
