@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1706227949 source:c:\users\lenovo\documents\c_programming_project\to_do_list\main.cpp
+	<iostream>
+	<vector>
+	<bits/stdc++.h>
+
+1706415253 source:c:\users\lenovo\desktop\codsoft\to_do_list\main.cpp
+	<iostream>
+	<vector>
+	<bits/stdc++.h>
+

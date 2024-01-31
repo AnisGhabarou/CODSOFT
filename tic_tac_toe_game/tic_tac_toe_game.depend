@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1706054446 source:c:\users\lenovo\documents\c_programming_project\tic_tac_toe_game\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1706054446 source:c:\users\lenovo\desktop\codsoft\tic_tac_toe_game\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
