@@ -75,6 +75,11 @@ int main()
     }
     cout << "if you want to play again press any button, if you want to exit enter 'exit'" << endl;
     cin >> decision;
+
+	//reinitialize the counter
+	i=0;
+
+	//clear the console every new round
     system("cls");
     }
 
