@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     // Declare variables
-	int n, g, m, M, i = 1;
+	int n, g, m, M, i = 0;
     string decision = "No";
     // Welcome message and game rules explanation
 	cout << "Welcome to the number guessing game!" << endl; //<< "Guess a number between a specified range." << endl;
