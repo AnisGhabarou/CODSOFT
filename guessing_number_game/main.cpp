@@ -62,7 +62,9 @@ int main()
             i++;
         }
 	}
-
+	//Add the right guess count
+  	i++;
+	    
     // Display the result based on the number of tries
 	if(i==1){
         cout << "Excellent you did it in the first try" << endl;
