@@ -44,8 +44,7 @@ int main()
         cout << "Enter / if you want to divide the first number by the second one" << endl;
         cout << "Enter an operator:" << endl;
         cin >> op;
-        cout << endl;
-
+        
         // Input precision
         cout <<"Enter the precision (number of digits displayed after the decimal point):" << endl;
         cin >> p;
