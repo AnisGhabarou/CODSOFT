@@ -38,17 +38,18 @@ int main()
         cin >> b;
 
         // Input operator
-        cout << "Enter + if you want to add the two numbers" << endl;
-        cout << "Enter - if you want to subtract the second number from the first one" << endl;
-        cout << "Enter * if you want to multiply the two numbers" << endl;
-        cout << "Enter / if you want to divide the first number by the second one" << endl;
-        cout << "Enter an operator:" << endl;
+        cout << "Enter + if you want to add the two numbers\n";
+        cout << "Enter - if you want to subtract the second number from the first one\n";
+        cout << "Enter * if you want to multiply the two numbers\n";
+        cout << "Enter / if you want to divide the first number by the second one\n";
+        cout << "Enter an operator: ";
         cin >> op;
-        
+
         // Input precision
-        cout <<"Enter the precision (number of digits displayed after the decimal point):" << endl;
+        try{
+        cout <<"Enter the precision (number of digits displayed after the decimal point): ";
         cin >> p;
-        cout << endl;
+        cout << "\n";
 
         // Perform calculations based on the chosen operator
         switch (op) {
@@ -100,15 +101,22 @@ int main()
                     }
                     cout << "|" << endl;
                 }
-                else{
-                    cout << "Invalid operation; the second number is 0 !\n";
+                else if(a==0){
+                  throw runtime_error("0 divided by 0 is undefined");
                 }
+              else{
+                throw runtime_error("Division by zero not allowed!");
+              }
                 break;
             default:
                 cout << "Invalid choice, enter a valid operator ( +, -, *, / )\n";
                 break;
         }
-
+        }
+          catch (const exception& e) {
+              // print the exception
+              cout << "Exception " << e.what() << endl;
+          }
         // Asking for continuation or exit
         cout << "REMARK! Press any button to calculate again or enter 'Exit' if you want to quit\n";
         cin >> decision;
